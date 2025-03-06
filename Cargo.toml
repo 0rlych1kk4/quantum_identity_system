@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = [
+    "identity_core",
+    "identity_cli",
+    "identity_wasm"
+]
+
+[profile.release]
+opt-level = 3
